@@ -1,0 +1,19 @@
+# SpecStory
+.specstory/
+
+# Cursor
+.cursorindexingignore
+
+# Emacs
+*.elc
+*~
+\#*\#
+.\#*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+# SpecStory explanation file
+.specstory/.what-is-this.md
