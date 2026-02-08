@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2025
 
-;; Author: Emacs Translate
+;; Author: Seki Rocc
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "27.1") (gptel "0.9.0"))
 ;; Keywords: translate, llm, tools
