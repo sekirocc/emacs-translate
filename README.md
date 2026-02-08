@@ -56,7 +56,13 @@ Adjust `:endpoint` and `:models` to match your provider’s documentation.
 ## Usage
 
 - **M-x emacs-translate-buffer**  
-  Translate the whole current buffer. You are prompted for the target language (default English). The translation opens in **\*Translation-\<current buffer name\>\*** (view-mode, read-only). Bind a key if desired, e.g. `(global-set-key (kbd "C-c C-t") #'emacs-translate-buffer)`.
+  Translate the whole current buffer. You are prompted for the target language (default English). The translation opens in **\*Translation-\<current buffer name\>\*** (view-mode, read-only).
+
+- **M-x emacs-translate-region**  
+  Translate only the active region. The result goes to a new buffer; if **\*Translation-\<name\>\*** already exists, names **\*Translation-\<name\>-1\***, **-2\***, … are used.
+
+- **M-x emacs-translate-dwim**  
+  Do-what-I-mean: with an active region, translates the region; otherwise translates the whole buffer. Convenient single binding, e.g. `(global-set-key (kbd "C-c C-t") #'emacs-translate-dwim)`.
 
 ## Dependencies
 
