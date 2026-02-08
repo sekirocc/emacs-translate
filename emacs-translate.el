@@ -6,7 +6,7 @@
 ;; Version: 0.2.0
 ;; Package-Requires: ((emacs "27.1") (gptel "0.9.0"))
 ;; Keywords: translate, llm, tools
-;; URL: https://github.com/your-repo/emacs-translate
+;; URL: https://github.com/sekirocc/emacs-translate
 
 ;;; Commentary:
 
